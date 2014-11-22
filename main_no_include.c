@@ -8,8 +8,8 @@ int strcmp(const char*, const char *);
 
 int main (int argc, char **argv)
 {
-	if (argc != 2) {
-		fprintf(stderr, "Error! Expected %d params\n", 2);
+	if (argc != 1 + 1) {
+		fprintf(stderr, "Error! Expected %d param\n", 1);
 		return 1;
 	}
 

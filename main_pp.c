@@ -1111,18 +1111,19 @@ extern char *stpncpy (char *__restrict __dest,
 
 
 
+
 int main (int argc, char **argv)
 {
- if (argc != 2) {
-  fprintf(stderr, "Error! Expected %d params\n", 2);
-  return 1;
- }
+        if (argc != 1 + 1) {
+                fprintf(stderr, "Error! Expected %d param\n", 1);
+                return 1;
+        }
 
- if (strcmp(argv[1], "test_arg") != 0) {
-  fprintf(stderr, "Error! Expected %s\n", "test_arg");
-  return 2;
- }
+        if (strcmp(argv[1], "test_arg") != 0) {
+                fprintf(stderr, "Error! Expected %s\n", "test_arg");
+                return 2;
+        }
 
- fputs("OK!\n", stdout);
- return 0;
+        fputs("OK!\n", stdout);
+        return 0;
 }
