@@ -1,7 +1,7 @@
 preprocessor_test
 =================
 
-Just some example files to show what gcc preprocessor does, needed for the explanation on this blog post: http://while2.blogspot.com/2014/11/how-c-compilers-work-part-2-preprocessor.html
+Just some example files to show what gcc preprocessor does, needed for the explanation on this blog post: http://while2.ghost.io/how_c_compilers_work_part_2_preprocessor/
 
 Source file `main_pp.c` has been created by the following command:
 
